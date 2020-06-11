@@ -6,7 +6,7 @@ The dataset is from a blood donation drive in Taiwan, where mobile blood donatio
 
 ## Dataset
 The dataset has 5 attributes with no missing values. All the attributes are numeric (integer), including the class value. This is how the first 5 rows of the dataset look like:
-![Image](https://github.com/heydibyendu/Classify-Song-Genres/blob/master/dataset_head.png)
+![Image](https://github.com/heydibyendu/Predicting-Blood-Donation/blob/master/data_head.png)
 
 ## Model Training
 I trained Logistic Regression, KNN, SVM, Naïve Bayes, and Random Forest together with 10-fold cross-validation. Then I compared these models with their mean accuracy values in different cross-validation folds, using box and whisker plots. The results show a tight distribution for Logistic Regression with better mean accuracy, suggesting low variance.
